@@ -1,0 +1,50 @@
+
+body {
+    background-color: #DCD7C9;
+    margin: 0;
+    padding: 0;
+}
+
+.heading {
+    display: flex;
+    justify-content: center;
+}
+
+h1 {
+    color: #2C3639;
+    font-family: 'Roboto Mono', monospace;
+    font-size: 40px;
+}
+
+.inputFilm {
+    display: flex;
+}
+
+#searh {
+    flex: 1;
+    padding: 15px;
+    text-align: center;
+    color: #2C3639;
+    font-family: 'Noto Serif HK', serif;
+    font-size: 20px;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.movie {
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+    padding: 20px;
+}
+
+a {
+    color: #2C3639;
+    font-family: 'Noto Serif HK', serif;
+    text-decoration: none;
+    font-size: 30px;
+}
